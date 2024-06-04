@@ -1,6 +1,6 @@
 export GO111MODULE=on
 
-LDFLAGS = -X github.com/philrz/zync/cmd/zync/version.version=$(VERSION)
+LDFLAGS = -X github.com/brimdata/zync/cmd/zync/version.version=$(VERSION)
 VERSION = $(shell git describe --always --dirty --tags)
 
 fmt:
