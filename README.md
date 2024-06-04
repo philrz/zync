@@ -512,3 +512,5 @@ echo '{a:1,id:1}{a:2,id:2}{a:3,id:2}{a:4,id:3}{a:5,id:4}{a:5,id:5}' > in.zson
 echo '{drop:2}{drop:5}' > drop.zson
 zq 'anti join on id=drop' in.zson drop.zson
 ```
+
+Change
