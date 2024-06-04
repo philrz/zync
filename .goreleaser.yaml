@@ -3,7 +3,7 @@ builds:
     env:
       - CGO_ENABLED=0
     ldflags:
-      - -s -X github.com/philrz/zync/cmd/zync/version.version={{ .Summary }}
+      - -s -X github.com/brimdata/zync/cmd/zync/version.version={{ .Summary }}
     goarch:
       - amd64
       - arm64
